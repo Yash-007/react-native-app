@@ -1,3 +1,7 @@
 module.exports = {
-  presets: ['module:@react-native/babel-preset'],
+  presets: ['module:metro-react-native-babel-preset'],
+  // plugins: [
+  // //   'tailwindcss-react-native/babel', // Add this plugin
+  //   'react-native-reanimated/plugin', // If using reanimated
+  // ],
 };
